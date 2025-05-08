@@ -1,0 +1,418 @@
+{
+    "n_turns": 15,
+    "todsystems": ["monolithic_llm"],
+    "_todsystems": ["hetal", "xuetal", "cetal"],
+    "data_split": "test",
+    "dialogue_type": ["multi"],
+    "liberal_processing": true,
+    "topics": ["restaurant", "hotel", "attraction", "taxi", "train"],
+    "_topics": ["restaurant", "hotel", "attraction", "taxi", "train"],
+    "statusmsg": {
+        "welcome": "Welcome to the $domain booking bot. Let me know, how can I help you?",
+        "usergoal": "Here is your goal:\nGoal:\n$goal\n\nBegin your interaction with the bot to achieve the goal.",
+        "dmresponse": "$response",
+        "no_booking": "The game has started. You are the first player.",
+        "no_slots": "The game has ended. Thank you for playing.",
+        "no_domain": "domain info is not available",
+        "no_key_match": "none of the keys are matched",
+        "partial_key_match": "only some of the keys are matched",
+        "no_value_match": "keys are matched but none of the values are matched",
+        "partial_value_match": "for some keys, values are matched",
+        "unknown": "unknown error",
+        "success": "Success",
+        "failure": "Failure",
+        "dbfetch": "DB query result",
+        "validatebooking": "in booking.",
+        "availablecolumns": "The available columns are: $columns",
+        "missing_slots": "The missing arguments are: $slots",
+        "invalid_value": "The value(s) for the $slot are not matching with the booking system.",
+        "booking_reference": "Your booking reference number is $refnum.",
+        "nocolumnmatch": "No matching columns found in the database.",
+        "novaluematch": "No matching data found in the database for the given query.",
+        "nodomainmatch": "No matching domain found in the database.",
+        "booking_failure": "Cannot proceed with the booking.",
+        "multiple_entries": "Multiple entries found in the database.",
+        "few_db_matching_records": "More matching database records are available. Here are the first five.",
+        "all_db_matching_records": "These are all the matching database records.",
+        "missing_other_slots_booking": "The booking system needs additional details [$slots] to proceed with the booking."
+    },
+
+    "booking_mandatory_keys": {
+        "restaurant": ["name", "people", "day", "time"],
+        "hotel": ["name", "people", "day", "stay"],
+        "train": ["people", "trainid"]
+    },
+
+    "json_schema": {
+      "type": "function",
+      "function": {
+          "name": "process_dsystem",
+          "description": "Extract structured details for restaurant, hotel, or train-related queries.",
+          "parameters": {
+              "type": "object",
+              "properties": {
+                  "status": { "type": "string", "enum": ["follow-up", "db-query", "validate-booking"],
+                              "description": "Defines the type of action. Possible values: 'follow-up' (requires a response), 'db-query' (fetches data from a database), 'validate-booking' (checks booking status)."
+                            },
+                  "details": {
+                    "oneOf": [
+                      { "type": "string",  "title": "FollowUpDetails",
+                        "description": "Details for a follow-up action, containing a message."
+                      },
+                      { "type": "object", "description": "Details for a database query action.",
+                        "properties": {
+                          "domain": { "type": "string", "enum": ["restaurant", "hotel", "attraction", "taxi", "train"] },
+                          "restaurant": {
+                            "type": "object",
+                            "properties": {
+                                "info": {
+                                    "type": "object",
+                                    "properties": {
+                                        "food": { "type": "string" },
+                                        "area": { "type": "string", "enum": ["centre", "north", "east", "west", "south"] },
+                                        "pricerange": { "type": "string", "enum": ["cheap", "moderate", "expensive"] },
+                                        "name": { "type": "string" }
+                                    },
+                                    "anyOf": [
+                                        { "required": ["food"] },
+                                        { "required": ["area"] },
+                                        { "required": ["pricerange"] },
+                                        { "required": ["name"] }
+                                    ],
+                                    "additionalProperties": false
+                                }
+                            },
+                            "required": ["info"],
+                            "additionalProperties": false
+                        },
+                        "hotel": {
+                            "type": "object",
+                            "properties": {
+                                "info": {
+                                    "type": "object",
+                                    "properties": {
+                                        "area": { "type": "string" , "enum": ["centre", "north", "east", "west", "south"] },
+                                        "pricerange": { "type": "string", "enum": ["cheap", "moderate", "expensive"]},
+                                        "type": { "type": "string", "enum": ["hotel", "guesthouse"] },                                  
+                                        "internet": { "type": "string", "enum": ["yes", "no"] },
+                                        "parking": { "type": "string", "enum": ["yes", "no"] },
+                                        "name": { "type": "string"},
+                                        "stars": {
+                                          "type": "object",
+                                          "properties": {
+                                              "operator": { "type": "string", "enum": ["=", ">=", "<=", ">", "<"] },
+                                              "value": { "type": "string", "enum": ["1", "2", "3", "4", "5"] }
+                                          },
+                                          "required": ["operator", "value"],
+                                          "additionalProperties": false
+                                        }
+                                    },
+                                    "anyOf": [
+                                        { "required": ["area"] },
+                                        { "required": ["pricerange"] },
+                                        { "required": ["type"] },
+                                        { "required": ["internet"] },
+                                        { "required": ["parking"] },
+                                        { "required": ["parking"] },
+                                        { "required": ["name"] },
+                                        { "required": ["stars"] }
+                                    ],
+                                    "additionalProperties": false
+                                }
+                            },
+                            "required": ["info"],
+                            "additionalProperties": false
+                        },
+                        "attraction": {
+                            "type": "object",
+                            "properties": {
+                                "info": {
+                                    "type": "object",
+                                    "properties": {
+                                        "area": { "type": "string" , "enum": ["centre", "north", "east", "west", "south"] },
+                                        "type": { "type": "string", "enum": ["museum", "entertainment", "college", "nightclub",
+                                                                             "swimming pool", "multiple sports", "architecture",
+                                                                             "cinema", "boat", "theatre", "concert hall", "park",
+                                                                             "local site", "hotspot", "church", "special"] },                                  
+                                        "name": { "type": "string"}
+                                    },
+                                    "anyOf": [
+                                        { "required": ["area"] },
+                                        { "required": ["type"] },
+                                        { "required": ["name"] }
+                                    ],
+                                    "additionalProperties": false
+                                }
+                            },
+                            "required": ["info"],
+                            "additionalProperties": false
+                        },                  
+                        "train": {
+                          "type": "object",
+                          "properties": {
+                              "info": {
+                                  "type": "object",
+                                  "properties": {
+                                      "destination": { "type": "string"},
+                                      "departure": { "type": "string"},
+                                      "day": { "type": "string", "enum": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"] },
+                                      "arriveby": {
+                                        "type": "object",
+                                        "description": "An object representing arrival time conditions with an operator and a time in HH:MM format.",  
+                                        "properties": {
+                                            "operator": { "type": "string", "enum": ["=", ">=", "<=", ">", "<"],
+                                                          "description": "A comparison operator indicating the condition (e.g., '<=' means arriving by or before a time)."
+                                                        },
+                                            "value": { "type": "string", "pattern": "^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$",
+                                                       "description": "A time string formatted as HH:MM (24-hour format)."
+                                                     }
+                                        },
+                                        "required": ["operator", "value"],
+                                        "additionalProperties": false
+                                      },
+                                      "leaveat": {
+                                        "type": "object",
+                                        "description": "An object representing departure time conditions with an operator and a time in HH:MM format.",  
+                                        "properties": {
+                                            "operator": { "type": "string", "enum": ["=", ">=", "<=", ">", "<"],
+                                                          "description": "A comparison operator indicating the condition (e.g., '<=' means departing by or before a time)."
+                                                     },
+                                            "value": { "type": "string", "pattern": "^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$",
+                                                       "description": "A time string formatted as HH:MM (24-hour format)."
+                                                     }
+                                        },
+                                        "required": ["operator", "value"],
+                                        "additionalProperties": false
+                                      }                                
+                                  },
+                                  "anyOf": [
+                                    { "required": ["destination"] },
+                                    { "required": ["departure"] },
+                                    { "required": ["day"] },
+                                    { "required": ["arriveby"] },
+                                    { "required": ["leaveat"] }
+                                  ],
+                                  "additionalProperties": false
+                              }
+                          },
+                          "required": ["info"],
+                          "additionalProperties": false
+                      },
+                      "taxi": {
+                        "type": "object",
+                        "properties": {
+                            "info": {
+                                "type": "object",
+                                "properties": {
+                                    "arriveby": {
+                                      "type": "object",
+                                      "properties": {
+                                          "operator": { "type": "string", "enum": ["=", ">=", "<=", ">", "<"] },
+                                          "value": { "type": "string", "pattern": "^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$" }
+                                      },
+                                      "required": ["operator", "value"],
+                                      "additionalProperties": false
+                                    },
+                                    "leaveat": {
+                                      "type": "object",
+                                      "properties": {
+                                          "operator": { "type": "string", "enum": ["=", ">=", "<=", ">", "<"] },
+                                          "value": { "type": "string", "pattern": "^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$" }
+                                      },
+                                      "required": ["operator", "value"],
+                                      "additionalProperties": false
+                                    }                                
+                                },
+                                "anyOf": [
+                                    { "required": ["arriveby"] },
+                                    { "required": ["leaveat"] }
+                                ],
+                                "additionalProperties": false
+                            }
+                        },
+                        "required": ["info"],
+                        "additionalProperties": false
+                    }
+                  },
+                  "required": ["domain"],
+                  "additionalProperties": false,
+                  "title": "DBQueryDetails"
+                },
+                                      
+                { "type": "object", "description": "Details for validating a booking status.",
+                "properties": {
+                    "domain": { "type": "string", "enum": ["restaurant", "hotel", "attraction", "taxi", "train"] },
+                    "restaurant": {
+                    "type": "object",
+                    "properties": {
+                        "info": {
+                            "type": "object",
+                            "properties": {
+                                "food": { "type": "string" },
+                                "area": { "type": "string", "enum": ["centre", "north", "east", "west", "south"] },
+                                "pricerange": { "type": "string", "enum": ["cheap", "moderate", "expensive"] },
+                                "name": { "type": "string" }
+                            },
+                            "required": ["food", "area", "pricerange", "name"],
+                            "additionalProperties": false
+                        },
+                        "book": {
+                            "type": "object",
+                            "properties": {
+                                "people": { "type": "string", "enum": ["1", "2", "3", "4", "5", "6", "7", "8"]},
+                                "day": { "type": "string", "enum": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"] },
+                                "time": { "type": "string", "pattern": "^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$" },
+                                "phone": { "type": "string"},
+                                "postcode": { "type": "string"},
+                                "address": { "type": "string"}
+                            },
+                            "required": ["people", "day", "time"],
+                            "additionalProperties": false
+                        }
+                    },
+                    "required": ["info", "book"],
+                    "additionalProperties": false
+                    },
+                    "hotel": {
+                        "type": "object",
+                        "properties": {
+                            "info": {
+                                "type": "object",
+                                "properties": {
+                                    "area": { "type": "string" , "enum": ["centre", "north", "east", "west", "south"] },
+                                    "pricerange": { "type": "string", "enum": ["cheap", "moderate", "expensive"]},
+                                    "type": { "type": "string", "enum": ["hotel", "guesthouse"] },                                  
+                                    "internet": { "type": "string", "enum": ["yes", "no"] },
+                                    "parking": { "type": "string", "enum": ["yes", "no"] },
+                                    "name": { "type": "string"},
+                                    "stars": {"type": "string", "enum": ["1", "2", "3", "4", "5"]}
+                                },
+                                "required": ["area", "pricerange", "type", "internet", "parking", "name", "stars"],
+                                "additionalProperties": false
+                            },
+                            "book": {"type": "object",
+                                "properties": {
+                                    "people": { "type": "string", "enum": ["1", "2", "3", "4", "5", "6", "7", "8"] },
+                                    "day": { "type": "string", "enum": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"] },
+                                    "stay": { "type": "string", "enum": ["1", "2", "3", "4", "5", "6", "7", "8"] },
+                                    "phone": { "type": "string"},
+                                    "postcode": { "type": "string"},
+                                    "address": { "type": "string"}
+                                },
+                                "required": ["people", "day", "stay"],
+                                "additionalProperties": false
+                            }
+                        },
+                        "required": ["info", "book"],
+                        "additionalProperties": false
+                    },
+                    "attraction": {
+                        "type": "object",
+                        "properties": {
+                            "info": {
+                                "type": "object",
+                                "properties": {
+                                    "area": { "type": "string" , "enum": ["centre", "north", "east", "west", "south"] },
+                                    "type": { "type": "string", "enum": ["museum", "entertainment", "college", "nightclub",
+                                                                            "swimming pool", "multiple sports", "architecture",
+                                                                            "cinema", "boat", "theatre", "concert hall", "park",
+                                                                            "local site", "hotspot", "church", "special"] },                                  
+                                    "name": { "type": "string"}
+                                },
+                                "required": ["area", "type", "name"],
+                                "additionalProperties": false
+                            },
+                            "book": {
+                                "type": "object",
+                                "properties": {
+                                    "phone": { "type": "string"},
+                                    "postcode": { "type": "string"},
+                                    "address": { "type": "string"},
+                                    "entrance_fee": { "type": "string"}
+                                },
+                                "anyOf": [
+                                    { "required": ["phone"] },
+                                    { "required": ["postcode"] },
+                                    { "required": ["address"] },
+                                    { "required": ["entrance_fee"] }
+                                ],
+                                "additionalProperties": false
+                            }
+                        },
+                        "required": ["info", "book"],
+                        "additionalProperties": false
+                    },                  
+                    "train": {
+                        "type": "object",
+                        "properties": {
+                            "info": {
+                                "type": "object",
+                                "properties": {
+                                    "destination": { "type": "string"},
+                                    "departure": { "type": "string"},
+                                    "day": { "type": "string", "enum": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"] },
+                                    "arriveby": {"type": "string", "pattern": "^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$" },
+                                    "leaveat": {"type": "string", "pattern": "^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$" }                                
+                                },
+                                "required": ["destination", "departure", "day", "arriveby", "leaveat"],
+                                "additionalProperties": false
+                            },
+                            "book": {"type": "object",
+                                "properties": {
+                                    "people": { "type": "string", "enum": ["1", "2", "3", "4", "5", "6", "7", "8"] },
+                                    "trainid": { "type": "string"}
+                                },
+                                "required": ["people", "trainid"],
+                                "additionalProperties": false
+                            }
+                        },
+                        "required": ["info", "book"],
+                        "additionalProperties": false
+                    },
+                    "taxi": {
+                    "type": "object",
+                    "properties": {
+                        "info": {
+                            "type": "object",
+                            "properties": {
+                                "arriveby": {"type": "string", "pattern": "^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$" },
+                                "leaveat": {"type": "string", "pattern": "^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$" }                                
+                            },
+                            "required": ["arriveby", "leaveat"],
+                            "additionalProperties": false
+                        },
+                        "book": {
+                            "type": "object",
+                            "properties": {
+                                "phone": { "type": "string", "pattern": "^[0-9]{10}$"},
+                                "car_type": { "type": "string", "enum": ["toyota","skoda","bmw","honda","ford","audi","lexus","volvo","volkswagen","tesla"]}
+                            },
+                            "required": ["phone", "car_type"],
+                            "additionalProperties": false
+                        }
+                    },
+                    "required": ["info", "book"],
+                    "additionalProperties": false
+                    }
+                  },
+                  "required": ["domain"],
+                  "additionalProperties": false,
+                  "title": "ValidateBookingDetails"
+                }
+              ],
+              "discriminator": {
+                "propertyName": "status",
+                "mapping": {
+                  "follow-up": "#/parameters/properties/details/oneOf/0",
+                  "db-query": "#/parameters/properties/details/oneOf/1",
+                  "validate-booking": "#/parameters/properties/details/oneOf/2"
+                }
+              }              
+            }
+          },
+          "required": ["status", "details"],
+          "additionalProperties": false
+        }
+      }
+    }
+}

@@ -1,0 +1,2589 @@
+{
+  "SNG0073.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL4648.json": {
+    "turn_domain": "restaurant",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL2437.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "MUL2499.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "MUL1575.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "MUL0671.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL2636.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "PMUL3027.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL1489.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG01608.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG0888.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL1598.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "MUL2305.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "MUL2321.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL1812.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL2569.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "MUL1491.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL1060.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "PMUL3647.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "MUL1045.json": {
+    "turn_domain": "hotel",
+    "domain": ["attraction", "taxi", "hotel"]
+  },
+  "SNG01936.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL1642.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL2320.json": {
+    "turn_domain": "attraction",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL0550.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL1612.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL0088.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "restaurant", "taxi"]
+  },
+  "MUL0469.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL1926.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL1526.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL1172.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "SNG0689.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL4626.json": {
+    "turn_domain": "train",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL1283.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL2376.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "MUL1024.json": { "turn_domain": "hotel", "domain": ["attraction", "hotel"] },
+  "SNG0263.json": { "turn_domain": "train", "domain": ["train"] },
+  "MUL1350.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "restaurant", "taxi"]
+  },
+  "MUL1799.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL2405.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "SNG0515.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "MUL2294.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL1066.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "SNG01386.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL2290.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL2162.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG0991.json": { "turn_domain": "hotel", "domain": ["hotel", "restaurant"] },
+  "PMUL3596.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL0409.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "MUL1192.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "PMUL4140.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "MUL0845.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "PMUL2755.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "PMUL3126.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL1650.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG0451.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL3748.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "PMUL3868.json": {
+    "turn_domain": "hotel",
+    "domain": ["attraction", "hotel"]
+  },
+  "MUL2177.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL1276.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL0264.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL4134.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL2675.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "PMUL1883.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL1139.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "MUL1064.json": { "turn_domain": "hotel", "domain": ["attraction", "hotel"] },
+  "PMUL4643.json": {
+    "turn_domain": "hotel",
+    "domain": ["restaurant", "hotel"]
+  },
+  "PMUL3890.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL0286.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "restaurant", "taxi"]
+  },
+  "MUL1690.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL2124.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL0265.json": {
+    "turn_domain": "restaurant",
+    "domain": ["restaurant", "hotel"]
+  },
+  "PMUL4919.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "SNG0681.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL1374.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG0085.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "SNG0898.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL0842.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "MUL1818.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "SNG0601.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG02153.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL1316.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL0937.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "PMUL3012.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "train", "restaurant"]
+  },
+  "MUL0212.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "hotel", "train"]
+  },
+  "PMUL2215.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "SNG01270.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL2119.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL4622.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL2491.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "PMUL2703.json": {
+    "turn_domain": "attraction",
+    "domain": ["attraction", "hotel"]
+  },
+  "SNG0892.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL4356.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL3162.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "SNG01679.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL3494.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "SNG0006.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL0831.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "SNG0466.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL2286.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "PMUL0745.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL4515.json": {
+    "turn_domain": "hotel",
+    "domain": ["attraction", "hotel"]
+  },
+  "SNG0360.json": { "turn_domain": "train", "domain": ["train"] },
+  "PMUL2239.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "SNG1048.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL4318.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "PMUL2497.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "MUL1276.json": { "turn_domain": "hotel", "domain": ["restaurant", "hotel"] },
+  "SNG1026.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL2347.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL4077.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "restaurant", "taxi"]
+  },
+  "PMUL0457.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "MUL2116.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL1982.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL1091.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL4388.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL1228.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "PMUL1762.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL1746.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "MUL2637.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "MUL0690.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL0896.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "attraction", "restaurant"]
+  },
+  "SNG01940.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL3935.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG1070.json": { "turn_domain": "attraction", "domain": ["attraction"] },
+  "MUL2301.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL4946.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "restaurant", "taxi"]
+  },
+  "SNG0471.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "MUL1898.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "SNG01957.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL0089.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "MUL0484.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL3919.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL1180.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL4660.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL1712.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL2269.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "SNG0767.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL2942.json": {
+    "turn_domain": "hotel",
+    "domain": ["attraction", "hotel"]
+  },
+  "PMUL3672.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL0323.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "SNG0345.json": { "turn_domain": "train", "domain": ["train"] },
+  "MUL0785.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL4432.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL0810.json": {
+    "turn_domain": "attraction",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL4255.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL4131.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "PMUL4610.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "MUL0912.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "MUL1137.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "PMUL4059.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "PMUL2195.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "SNG01835.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL2012.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL0003.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "PMUL0182.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "PMUL2980.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "MUL1546.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL1420.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL2778.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "PMUL1521.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL1966.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL4122.json": {
+    "turn_domain": "attraction",
+    "domain": ["attraction", "restaurant"]
+  },
+  "MUL2359.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi", "hotel"]
+  },
+  "MUL1008.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "SNG01323.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL0095.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "MUL1870.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "MUL2665.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "PMUL3668.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL1247.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "SNG0391.json": { "turn_domain": "train", "domain": ["train"] },
+  "PMUL3376.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL2483.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "PMUL2704.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "MUL0309.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG0822.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL4306.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL3336.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant", "hotel"]
+  },
+  "PMUL4819.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG0611.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL0674.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL1883.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL2204.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL3737.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG01752.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "SNG0775.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL0515.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL1739.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG0348.json": { "turn_domain": "train", "domain": ["train"] },
+  "MUL0818.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "PMUL1137.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL0239.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL4884.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL2609.json": { "turn_domain": "hotel", "domain": ["attraction", "hotel"] },
+  "MUL0004.json": { "turn_domain": "hotel", "domain": ["restaurant", "hotel"] },
+  "PMUL4239.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "SNG01819.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL0297.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG0840.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL1800.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL1806.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL3558.json": { "turn_domain": "train", "domain": ["train", "hotel"] },
+  "SNG02315.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "SNG02205.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL1555.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG0317.json": { "turn_domain": "train", "domain": ["train"] },
+  "PMUL1424.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG02240.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL2053.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL0761.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL1978.json": { "turn_domain": "train", "domain": ["train", "hotel"] },
+  "SNG01530.json": { "turn_domain": "train", "domain": ["train"] },
+  "SNG0617.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG1042.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL2194.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "SNG0547.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL1182.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL1901.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL1613.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL0072.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "PMUL0795.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL4316.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG0005.json": { "turn_domain": "taxi", "domain": ["taxi", "restaurant"] },
+  "PMUL3834.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL1183.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "SNG0256.json": { "turn_domain": "train", "domain": ["train"] },
+  "PMUL2279.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL4366.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "restaurant", "train"]
+  },
+  "PMUL2869.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "PMUL3145.json": {
+    "turn_domain": "hotel",
+    "domain": ["restaurant", "hotel"]
+  },
+  "PMUL3742.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL2708.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "MUL2358.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "MUL0369.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "MUL0838.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL4713.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "PMUL0599.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL1136.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL4026.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "MUL1664.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG0433.json": { "turn_domain": "train", "domain": ["train"] },
+  "PMUL4780.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL1834.json": { "turn_domain": "train", "domain": ["train", "hotel"] },
+  "PMUL2380.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "MUL0374.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "SNG0994.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "SNG0539.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "MUL1588.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL2729.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "PMUL4880.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "SNG01551.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "SNG01775.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL4231.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "MUL0628.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL0613.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "SNG01366.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL3506.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "SNG0636.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL4998.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL2009.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL3858.json": {
+    "turn_domain": "hotel",
+    "domain": ["restaurant", "hotel"]
+  },
+  "PMUL1002.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "SNG01432.json": { "turn_domain": "train", "domain": ["train"] },
+  "PMUL1920.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL0573.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL2106.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL1015.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "PMUL1593.json": { "turn_domain": "train", "domain": ["train", "hotel"] },
+  "MUL0694.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL4616.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL0354.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL1106.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL4229.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "SNG02006.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "SNG0799.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL4542.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL0772.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG0691.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG0280.json": { "turn_domain": "train", "domain": ["train"] },
+  "PMUL3946.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL0822.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "SNG0964.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "SNG0690.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG01534.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "SNG0293.json": { "turn_domain": "train", "domain": ["train"] },
+  "SNG02018.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL4362.json": {
+    "turn_domain": "hotel",
+    "domain": ["restaurant", "hotel"]
+  },
+  "SNG1147.json": { "turn_domain": "attraction", "domain": ["attraction"] },
+  "SNG01919.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL0198.json": { "turn_domain": "hotel", "domain": ["restaurant", "hotel"] },
+  "SNG1086.json": { "turn_domain": "attraction", "domain": ["attraction"] },
+  "PMUL2080.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL2452.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL3439.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL1692.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL1147.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL2137.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "SNG0649.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL3723.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL2432.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "MUL2658.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "MUL1527.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL3160.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "PMUL0938.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL3514.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "SNG0803.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL0099.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "PMUL3465.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL1505.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG01850.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "MUL0370.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "SNG1012.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL4894.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL1623.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL2130.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL1756.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG1091.json": { "turn_domain": "attraction", "domain": ["attraction"] },
+  "PMUL1210.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL2228.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG0927.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL0079.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "PMUL2719.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "PMUL0399.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "restaurant", "taxi"]
+  },
+  "PMUL4050.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "SNG0586.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG02202.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL1763.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "MUL2138.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG01884.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL0391.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL2634.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "PMUL1763.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL1202.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "MUL0397.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL1788.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "SNG01634.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL2193.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL0832.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL2491.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL1067.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL4155.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL2195.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL2072.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL2882.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi", "restaurant"]
+  },
+  "PMUL4603.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL1949.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL0450.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL2403.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "PMUL0267.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "PMUL0205.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "restaurant", "taxi"]
+  },
+  "SNG0678.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "MUL1211.json": { "turn_domain": "hotel", "domain": ["restaurant", "hotel"] },
+  "SNG0459.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "MUL1274.json": { "turn_domain": "hotel", "domain": ["restaurant", "hotel"] },
+  "SNG0897.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL4054.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL2386.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "MUL0947.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "PMUL0864.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL0353.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "MUL2051.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL1624.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL1330.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL1109.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG01943.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL0474.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL1853.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL1347.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL4011.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "MUL1766.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL2074.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL0089.json": { "turn_domain": "hotel", "domain": ["restaurant", "hotel"] },
+  "MUL1508.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL2122.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL1998.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL1241.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL2756.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL3282.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL4941.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL2686.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "MUL0901.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL1087.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG0866.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "SNG01391.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG02342.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL1342.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL1844.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL0262.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "restaurant", "taxi"]
+  },
+  "SNG0830.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "SNG01153.json": { "turn_domain": "taxi", "domain": ["taxi", "restaurant"] },
+  "PMUL1477.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL1463.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL1867.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL2272.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "MUL0208.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL1931.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL2917.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "SNG01692.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL3279.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL0941.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "MUL2218.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG1066.json": { "turn_domain": "attraction", "domain": ["attraction"] },
+  "PMUL4504.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL0899.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL0364.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "MUL2275.json": { "turn_domain": "train", "domain": ["train", "hotel"] },
+  "MUL1455.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL0340.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG0714.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL1113.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL1118.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL1470.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL2001.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL0803.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "MUL0555.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "SNG0644.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL1412.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL0738.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL0080.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "PMUL0875.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL0669.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL0739.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL0978.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "SNG0832.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL1828.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG0423.json": { "turn_domain": "train", "domain": ["train"] },
+  "MUL1258.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "MUL2630.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "MUL0473.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL3283.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "taxi", "hotel"]
+  },
+  "SNG0518.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL2848.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "MUL1560.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "SNG0701.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "MUL1212.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "PMUL1273.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL1944.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL0787.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL3685.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL4125.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL0939.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "SNG01797.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL3217.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL2525.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "PMUL3348.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL2351.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "MUL1365.json": { "turn_domain": "hotel", "domain": ["restaurant", "hotel"] },
+  "MUL0144.json": { "turn_domain": "hotel", "domain": ["restaurant", "hotel"] },
+  "MUL0641.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL2436.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "SNG01503.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "SNG02172.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "SNG0781.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL0844.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL1455.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "SNG0429.json": { "turn_domain": "train", "domain": ["train"] },
+  "MUL1050.json": { "turn_domain": "hotel", "domain": ["attraction", "hotel"] },
+  "PMUL3931.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL3599.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL4303.json": { "turn_domain": "train", "domain": ["train", "hotel"] },
+  "PMUL1462.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL0090.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "MUL1110.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "PMUL3933.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "MUL0373.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG0519.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL3304.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "SNG0590.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "MUL1514.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG0308.json": { "turn_domain": "train", "domain": ["train"] },
+  "PMUL3759.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "MUL2466.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL2513.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "MUL1422.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL2457.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "MUL1638.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG0004.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "SNG0323.json": { "turn_domain": "train", "domain": ["train"] },
+  "PMUL3600.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL0316.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL4176.json": {
+    "turn_domain": "hotel",
+    "domain": ["attraction", "hotel"]
+  },
+  "PMUL3107.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "PMUL3897.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "MUL1342.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "PMUL1600.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL1804.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL4524.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "hotel", "taxi"]
+  },
+  "PMUL1779.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL0222.json": { "turn_domain": "train", "domain": ["train", "restaurant"] },
+  "SNG0979.json": { "turn_domain": "hotel", "domain": ["hotel", "restaurant"] },
+  "SNG01784.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "SNG0779.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL1268.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "SNG01380.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL4911.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL4800.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL0172.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "MUL1678.json": { "turn_domain": "train", "domain": ["train", "restaurant"] },
+  "MUL2077.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL2166.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "SNG01290.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL1329.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL2646.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "SNG0610.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "MUL0537.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL1266.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL4641.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "PMUL4294.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL4693.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL1987.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL1359.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL2442.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "MUL1627.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL0410.json": {
+    "turn_domain": "hotel",
+    "domain": ["restaurant", "hotel"]
+  },
+  "MUL1787.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL4964.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "PMUL4567.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL0018.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "PMUL1232.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL3992.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL1253.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL2670.json": {
+    "turn_domain": "attraction",
+    "domain": ["attraction", "hotel"]
+  },
+  "MUL0844.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "SNG0661.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG01262.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL0621.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL0012.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "restaurant", "taxi"]
+  },
+  "SNG0305.json": { "turn_domain": "train", "domain": ["train"] },
+  "MUL1596.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG01492.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL1753.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL3921.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "MUL1475.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL2123.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL1105.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL1148.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG0483.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL0815.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL1486.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL2174.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "PMUL3328.json": {
+    "turn_domain": "hotel",
+    "domain": ["attraction", "hotel"]
+  },
+  "PMUL3918.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL2523.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "SNG0098.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL3085.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL3976.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "SNG01907.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL4756.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "PMUL3907.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "SNG0468.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL1983.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL1759.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL1256.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL0527.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL3425.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL2311.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL4357.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "MUL0228.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "MUL0677.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL1117.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "SNG0568.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL3403.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction", "taxi", "hotel"]
+  },
+  "SNG0933.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL4247.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL2316.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "SNG0482.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG01542.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL0035.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "PMUL1755.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL1848.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL1248.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "restaurant", "taxi"]
+  },
+  "SNG0296.json": { "turn_domain": "train", "domain": ["train"] },
+  "SNG0099.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL1385.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL2000.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL3141.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL2006.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL2746.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "PMUL0692.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL1240.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "restaurant", "taxi"]
+  },
+  "PMUL2627.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "MUL1675.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL0594.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL3803.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG0692.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "MUL1351.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "SNG01937.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL0789.json": { "turn_domain": "hotel", "domain": ["hotel", "train"] },
+  "SNG0613.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG0081.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "SNG0733.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG01710.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL0510.json": { "turn_domain": "train", "domain": ["train", "attraction"] },
+  "MUL0388.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL1986.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL1537.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "SNG0477.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL3913.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "SNG0954.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "SNG01733.json": { "turn_domain": "train", "domain": ["train"] },
+  "PMUL4317.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL0843.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "MUL2542.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "PMUL3293.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL3247.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL3066.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "SNG01673.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL1410.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL1323.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL1739.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL1983.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "MUL1077.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "PMUL1981.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG0874.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL0744.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG0616.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL1980.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG01155.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL2898.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "MUL0034.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "taxi", "hotel"]
+  },
+  "SNG0274.json": { "turn_domain": "train", "domain": ["train"] },
+  "MUL2009.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG0354.json": { "turn_domain": "train", "domain": ["train"] },
+  "PMUL2362.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL2859.json": {
+    "turn_domain": "hotel",
+    "domain": ["attraction", "restaurant", "hotel"]
+  },
+  "PMUL4383.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "MUL0071.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "SNG1076.json": { "turn_domain": "attraction", "domain": ["attraction"] },
+  "MUL2254.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL0509.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL3239.json": {
+    "turn_domain": "attraction",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL1344.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "SNG0940.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL0073.json": { "turn_domain": "hotel", "domain": ["restaurant", "hotel"] },
+  "SNG0448.json": { "turn_domain": "train", "domain": ["train"] },
+  "MUL2270.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG0722.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "MUL2482.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "MUL1649.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "MUL2664.json": { "turn_domain": "hotel", "domain": ["attraction", "hotel"] },
+  "SNG0792.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "MUL1515.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG01403.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL0109.json": {
+    "turn_domain": "hotel",
+    "domain": ["restaurant", "hotel"]
+  },
+  "MUL0457.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "MUL0233.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL4078.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "MUL1803.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "MUL1554.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL3437.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "PMUL1854.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "SNG01898.json": { "turn_domain": "train", "domain": ["train"] },
+  "PMUL2983.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "SNG0572.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "MUL1091.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "PMUL1332.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL0814.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "MUL1836.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL4344.json": { "turn_domain": "hotel", "domain": ["hotel", "train"] },
+  "MUL2657.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "PMUL2953.json": {
+    "turn_domain": "hotel",
+    "domain": ["attraction", "hotel"]
+  },
+  "MUL0332.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "MUL0113.json": { "turn_domain": "hotel", "domain": ["restaurant", "hotel"] },
+  "PMUL3662.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL4636.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "MUL0654.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL4333.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL0575.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL1775.json": { "turn_domain": "train", "domain": ["train", "hotel"] },
+  "MUL2120.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG0078.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL0389.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "SNG0941.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL0021.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "PMUL1036.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG0768.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL4569.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL4220.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL4224.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL4246.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "PMUL4564.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "MUL1718.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL3263.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "SNG0589.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG01434.json": { "turn_domain": "train", "domain": ["train"] },
+  "MUL0432.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL4840.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "PMUL2275.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "MUL0454.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG1004.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL4025.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL3649.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL0129.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "PMUL3707.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL1569.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL4368.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "MUL0798.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL1376.json": { "turn_domain": "hotel", "domain": ["hotel", "restaurant"] },
+  "SNG01165.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL1869.json": { "turn_domain": "train", "domain": ["train", "hotel"] },
+  "PMUL3423.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "taxi", "attraction"]
+  },
+  "MUL1059.json": { "turn_domain": "hotel", "domain": ["attraction", "hotel"] },
+  "PMUL2558.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "PMUL3778.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "taxi", "attraction"]
+  },
+  "PMUL4234.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL2439.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "SNG0962.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "SNG0016.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "SNG0455.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG0531.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL4325.json": {
+    "turn_domain": "hotel",
+    "domain": ["restaurant", "hotel"]
+  },
+  "MUL0528.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "MUL2284.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL3815.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL2945.json": {
+    "turn_domain": "hotel",
+    "domain": ["attraction", "hotel"]
+  },
+  "MUL0992.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "MUL0346.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL1844.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL4905.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "PMUL1373.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL4672.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "SNG0289.json": { "turn_domain": "train", "domain": ["train"] },
+  "SNG01538.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL1838.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL4258.json": {
+    "turn_domain": "attraction",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL1435.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG01272.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL0011.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "SNG01686.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL0558.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL1633.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG0742.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL0782.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL0540.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL1833.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "SNG0805.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL3014.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "PMUL1484.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL4605.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL0873.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL0048.json": {
+    "turn_domain": "hotel",
+    "domain": ["restaurant", "hotel"]
+  },
+  "PMUL1952.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL2489.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL0732.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "SNG01367.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL3875.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL3224.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL3625.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "SNG0855.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL0341.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL1320.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL2410.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL4326.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "MUL0869.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "SNG0456.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL1008.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG0416.json": { "turn_domain": "train", "domain": ["train"] },
+  "MUL1661.json": { "turn_domain": "train", "domain": ["train", "restaurant"] },
+  "MUL0371.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL0367.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "MUL2317.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "MUL2099.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL0624.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG0390.json": { "turn_domain": "train", "domain": ["train"] },
+  "MUL0760.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL4044.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "SNG01767.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL0982.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL3523.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "PMUL4949.json": {
+    "turn_domain": "restaurant",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL4731.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "attraction", "train"]
+  },
+  "MUL0524.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "SNG1090.json": { "turn_domain": "attraction", "domain": ["attraction"] },
+  "SNG0659.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "MUL2086.json": {
+    "turn_domain": "hotel",
+    "domain": ["train", "taxi", "hotel"]
+  },
+  "SNG1041.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "SNG02198.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL2477.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "SNG0908.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL2330.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "SNG0446.json": { "turn_domain": "train", "domain": ["train"] },
+  "PMUL3415.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL2578.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "SNG0772.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL3576.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL3364.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "taxi"]
+  },
+  "MUL2197.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "SNG0571.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "MUL0881.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL3708.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL0638.json": { "turn_domain": "train", "domain": ["train", "hotel"] },
+  "MUL0199.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "MUL1981.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL1200.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL0998.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL0225.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "SNG0529.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG0253.json": { "turn_domain": "train", "domain": ["train"] },
+  "SNG0580.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL1895.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL1173.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "MUL1071.json": { "turn_domain": "hotel", "domain": ["attraction", "hotel"] },
+  "MUL1285.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "PMUL0566.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL4842.json": {
+    "turn_domain": "hotel",
+    "domain": ["restaurant", "hotel"]
+  },
+  "MUL1697.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL2423.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "PMUL1772.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG0322.json": { "turn_domain": "train", "domain": ["train"] },
+  "MUL0286.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG0715.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG0600.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL4930.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "SNG1150.json": { "turn_domain": "attraction", "domain": ["attraction"] },
+  "MUL0230.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "SNG0528.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL0685.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL1189.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "MUL2139.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL0116.json": { "turn_domain": "hotel", "domain": ["restaurant", "hotel"] },
+  "PMUL3521.json": {
+    "turn_domain": "hotel",
+    "domain": ["attraction", "hotel"]
+  },
+  "SNG0721.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "MUL0148.json": { "turn_domain": "hotel", "domain": ["restaurant", "hotel"] },
+  "PMUL3156.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "PMUL3663.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG1016.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL2151.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL4048.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "PMUL3520.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL0990.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "PMUL0615.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL1028.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "PMUL0630.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL0014.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "MUL1657.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "SNG01983.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "SNG0338.json": { "turn_domain": "train", "domain": ["train"] },
+  "PMUL1657.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "SNG0755.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL0533.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL1311.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL0441.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "PMUL0522.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL2209.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "MUL0828.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL0518.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL1278.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "PMUL1370.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL1122.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "PMUL4462.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "MUL2155.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL1254.json": { "turn_domain": "hotel", "domain": ["restaurant", "hotel"] },
+  "MUL2089.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "SNG01359.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "SNG0095.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL0498.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL4106.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "PMUL0578.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL0197.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "MUL2146.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL1695.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG01924.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL3044.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "MUL2225.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL0890.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "MUL2206.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL4186.json": {
+    "turn_domain": "hotel",
+    "domain": ["restaurant", "hotel"]
+  },
+  "MUL2365.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL1801.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL2281.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "SNG0008.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL0204.json": {
+    "turn_domain": "hotel",
+    "domain": ["restaurant", "hotel"]
+  },
+  "MUL1958.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL1935.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL3734.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL0466.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "SNG02096.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL0548.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL2427.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "MUL1620.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "SNG0735.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL1533.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL2042.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "MUL1289.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "restaurant", "taxi"]
+  },
+  "PMUL3940.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG1105.json": { "turn_domain": "attraction", "domain": ["attraction"] },
+  "MUL0841.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "MUL1607.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL4259.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL1809.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL2433.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "MUL2567.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "SNG1075.json": { "turn_domain": "attraction", "domain": ["attraction"] },
+  "SNG01332.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "SNG0055.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "MUL2060.json": { "turn_domain": "hotel", "domain": ["train", "hotel"] },
+  "PMUL0117.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "attraction", "restaurant", "taxi"]
+  },
+  "SNG1078.json": { "turn_domain": "attraction", "domain": ["attraction"] },
+  "MUL1606.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL3301.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL0682.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL2146.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "MUL1392.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "PMUL3171.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL3731.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "PMUL2933.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "MUL1855.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG0007.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL4343.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "PMUL2205.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "SNG1126.json": { "turn_domain": "attraction", "domain": ["attraction"] },
+  "MUL1076.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction"]
+  },
+  "MUL1811.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL2503.json": {
+    "turn_domain": "hotel",
+    "domain": ["attraction", "hotel"]
+  },
+  "MUL1478.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL3127.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG01683.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL3275.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL3264.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL2368.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "PMUL4958.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL2415.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "PMUL1284.json": {
+    "turn_domain": "attraction",
+    "domain": ["hotel", "attraction", "train"]
+  },
+  "MUL0306.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL0506.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "SNG0983.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL1493.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "SNG0500.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "SNG0782.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL1273.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "MUL1860.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "MUL0496.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "MUL0352.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL1418.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "SNG01755.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL1194.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "SNG1036.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "MUL0237.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "PMUL1259.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL3957.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL4716.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL3309.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL2210.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "SNG01353.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "PMUL3424.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL0006.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "restaurant", "taxi"]
+  },
+  "SNG0069.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL2563.json": {
+    "turn_domain": "attraction",
+    "domain": ["attraction", "hotel"]
+  },
+  "PMUL0919.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL0260.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL0069.json": {
+    "turn_domain": "hotel",
+    "domain": ["restaurant", "hotel"]
+  },
+  "SNG0284.json": { "turn_domain": "train", "domain": ["train"] },
+  "MUL1552.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL0713.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL3310.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "train"]
+  },
+  "MUL1159.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "PMUL4644.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "PMUL0320.json": {
+    "turn_domain": "taxi",
+    "domain": ["hotel", "restaurant", "taxi"]
+  },
+  "MUL0379.json": {
+    "turn_domain": "train",
+    "domain": ["restaurant", "taxi", "train"]
+  },
+  "PMUL4001.json": {
+    "turn_domain": "train",
+    "domain": ["train", "attraction"]
+  },
+  "PMUL3495.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "restaurant", "taxi"]
+  },
+  "PMUL0276.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "hotel", "taxi"]
+  },
+  "SNG0412.json": { "turn_domain": "train", "domain": ["train"] },
+  "PMUL1046.json": {
+    "turn_domain": "attraction",
+    "domain": ["train", "attraction"]
+  },
+  "SNG0527.json": { "turn_domain": "restaurant", "domain": ["restaurant"] },
+  "PMUL1811.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL0994.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL0570.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL3785.json": {
+    "turn_domain": "restaurant",
+    "domain": ["hotel", "restaurant"]
+  },
+  "SNG0867.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "SNG01873.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL0768.json": {
+    "turn_domain": "restaurant",
+    "domain": ["restaurant", "train"]
+  },
+  "PMUL4034.json": { "turn_domain": "train", "domain": ["train", "hotel"] },
+  "MUL1899.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "MUL1466.json": { "turn_domain": "train", "domain": ["restaurant", "train"] },
+  "MUL0492.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "SNG02207.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL3886.json": {
+    "turn_domain": "hotel",
+    "domain": ["restaurant", "train", "hotel"]
+  },
+  "MUL0383.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "MUL2063.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "MUL1417.json": {
+    "turn_domain": "restaurant",
+    "domain": ["train", "restaurant"]
+  },
+  "PMUL2119.json": {
+    "turn_domain": "attraction",
+    "domain": ["restaurant", "attraction"]
+  },
+  "MUL2378.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "MUL1088.json": {
+    "turn_domain": "attraction",
+    "domain": ["attraction", "hotel"]
+  },
+  "MUL2148.json": { "turn_domain": "train", "domain": ["hotel", "train"] },
+  "PMUL3557.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "MUL2457.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "MUL1055.json": {
+    "turn_domain": "taxi",
+    "domain": ["attraction", "hotel", "taxi"]
+  },
+  "PMUL0076.json": {
+    "turn_domain": "hotel",
+    "domain": ["restaurant", "hotel"]
+  },
+  "MUL0849.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "PMUL4440.json": {
+    "turn_domain": "hotel",
+    "domain": ["restaurant", "hotel"]
+  },
+  "MUL0821.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "PMUL3549.json": {
+    "turn_domain": "train",
+    "domain": ["attraction", "train"]
+  },
+  "SNG0797.json": { "turn_domain": "hotel", "domain": ["hotel"] },
+  "SNG02319.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "SNG0061.json": { "turn_domain": "taxi", "domain": ["taxi"] },
+  "PMUL4547.json": {
+    "turn_domain": "taxi",
+    "domain": ["restaurant", "attraction", "taxi"]
+  },
+  "PMUL3158.json": {
+    "turn_domain": "restaurant",
+    "domain": ["attraction", "restaurant"]
+  },
+  "MUL0536.json": { "turn_domain": "train", "domain": ["attraction", "train"] },
+  "PMUL3688.json": { "turn_domain": "train", "domain": ["attraction", "train"] }
+}

@@ -1,0 +1,12 @@
+1. Continue interacting until the task is complete.
+2. Once the dialogue system has completed the task, reply with "DONE".
+3. Do not simulate or act as the dialogue system; only interact with it.
+4. When responding to the dialogue system's queries, use only the information provided under TASK.
+5. Ensure that names and terms remain exactly as provided in the input, without any added or altered punctuation (e.g., do not add apostrophes, hyphens, or other symbols). Maintain strict adherence to the original formatting. If there is a conflict between TASK and the dialogue system’s details, always follow the TASK as the final authority.
+6. Once the dialogue system completes the task and provides the reference number, reply with "DONE". No additional text should follow/preceed.
+
+TASK:
+Use the following details to provide information during the conversation:
+$goal
+
+Here is the dialogue system's response:

@@ -1,0 +1,49 @@
+You are required to compare two task-oriented dialogues and rate which one sounds more human-like. Use the metrics naturalness, coherence, and dialogue-level diversity to arrive at a decision. Each dialogue is a multi-turn conversation involving interactions between the user and the system. For evaluation purposes, focus only on the user's conversation.
+
+Here is some detailed explanations for the metrics:
+
+1. Naturalness
+This metric measures the resemblance to human.
+You should report a numeric rating from 1 to 5, where 5 represents most likely to be human.
+You are required to evaluate the naturalness of both the user and the system.
+
+Here are some more detailed guidelines for naturalness for your reference:
+1: The speaker continuously repeat itself, typical robotic behavior. Or the speech is hard to understand.
+2: The speaker repeat itself occasionally, the vocabulary is limited, like a robot.
+3: The speaker does not have repeated behaviors (unless for verifying information). Vocabulary is enough to communicate effectively, speech is easy to understand. But I am confident that human rarely speak like this.
+4: The speaker is likely to be a human. There is rarely logical inconsistency. But from some details I feel like the utterance is a bit weird and somewhat resembles AI.
+5: Can not really tell if this is AI or human. Human could probably say the same thing in real life.
+
+2. Coherence
+This metric measures the logical consistency within a dialogue.
+You should give a numeric rating from 1 to 3, where 3 represents the highest coherence.
+Here is some detailed guidelines for coherence.
+a. Locally, the utterances are coherent/logical based on previous turns of conversations.
+b. Globally, the utterances reasonably and logically adhere to achieving the initial user goal step by step.
+If both conditions a and b are satisfied, you should give a score of 3. If only one condition is satisfied, you should give a score of 2. Report 1 if none of the conditions are satisfied.
+
+3. Dialogue-level diversity
+In addition to trying to achieve the initial goal, does the user introduce some reasonable deviations from the normal conversation flow?
+Give a score from:
+3 (highest score): > 20% of the time (frequently deviate from normal flow of the conversation)
+2: 0% < deviation frequency < 20% (Normal)
+1 (lowest score): ~ 0% (too artificial, maximizing information exchange)
+
+Note that for naturalness, coherence, and dialogue-level diversity, you only need to evaluate the user's conversation.
+
+4. Human like
+This would be a binary metric and you should respond only with 'Yes' or 'No'. Based on the values of the above three metrics (naturalness, coherence and diversity), give the rating. Sometimes, both dialogues may appear human-like—if so, mark both as human.
+
+You should return 8 results in total, with the order of naturalness, coherence, diversity and human-like for the user for dialogue-1 and dialogue-2.
+
+
+Each evaluation results should be separated by commas. For example, '5,3,3,Yes,2,1,3,No' will be a valid response.
+
+Please be strict on the format of your response. Do not include any other words like 'Sure!', 'Here is the result:'. Simply response with only the results.
+
+The dialogues to be evaluated are as following:
+Dialogue-1:
+$dialogue1
+
+Dialogue-2:
+$dialogue2

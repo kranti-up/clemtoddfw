@@ -1,0 +1,29 @@
+# Xu et al
+langchain
+langchain_community
+langchain_experimental
+openai
+tenacity
+SQLAlchemy
+pydantic
+click
+termcolor
+# H et al
+datasets
+fuzzywuzzy
+python-Levenshtein
+transformers
+sacrebleu
+sacremoses
+faiss-cpu
+nltk
+scikit-learn
+evaluate
+torch
+lexical-diversity
+dirtyjson
+sentence-transformers
+pynvml
+#wandb
+bitsandbytes
+accelerate

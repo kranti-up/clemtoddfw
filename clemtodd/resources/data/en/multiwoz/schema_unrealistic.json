@@ -1,0 +1,399 @@
+[
+  {
+    "service_name": "hotel",
+    "slots": [
+      {
+        "name": "hotel-pricerange",
+        "description": "price budget of the hotel",
+        "possible_values": [
+          "nonsense",
+          "undefined",
+          "blockbuster"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "hotel-type",
+        "description": "what is the type of the hotel",
+        "possible_values": [
+          "dungeon",
+          "wormhole"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "hotel-parking",
+        "description": "whether the hotel has parking",
+        "possible_values": [
+          "on the river",
+          "next to the table"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "hotel-bookday",
+        "description": "day of the hotel booking",
+        "possible_values": [
+          "yesterday",
+          "lastyear",
+          "daybefore",
+          "someday",
+          "rainyday",
+          "clearday",
+          "goodday"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "hotel-bookpeople",
+        "description": "number of people for the hotel booking",
+        "possible_values": [
+          "1.5",
+          "-2",
+          "0",
+          "488976",
+          "-5000",
+          "6L",
+          "7B",
+          "8GB"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "hotel-bookstay",
+        "description": "length of stay at the hotel",
+        "possible_values": [
+            "0",
+            "-2",
+            "3.75",
+            "40000",
+            "5long",
+            "6stay",
+            "7afternoons",
+            "8seasons"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "hotel-stars",
+        "description": "star rating of the hotel",
+        "possible_values": [
+          "-10",
+          "1/2",
+          "3^8",
+          "100000",
+          "-0.00072"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "hotel-internet",
+        "description": "whether the hotel has internet",
+        "possible_values": [
+          "45g",
+          "edge"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "hotel-name",
+        "description": "name of the hotel",
+        "possible_values": [],
+        "is_categorical": false
+      },
+      {
+        "name": "hotel-area",
+        "description": "area or place of the hotel",
+        "possible_values": [
+          "sky",
+          "earth's core",
+          "nowhere",
+          "middle of ocean",
+          "volcano"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "hotel-address",
+        "description": "address of the hotel",
+        "is_categorical": false
+      },
+      {
+        "name": "hotel-phone",
+        "description": "phone number of the hotel",
+        "is_categorical": false
+      },
+      {
+        "name": "hotel-postcode",
+        "description": "postal code of the hotel",
+        "is_categorical": false
+      },
+      {
+        "name": "hotel-ref",
+        "description": "reference number of the hotel booking",
+        "is_categorical": false
+      }
+    ],
+    "description": "hotel reservations and vacation stays",
+    "intents": [
+      {
+        "name": "find_hotel",
+        "description": "search for a hotel to stay in",
+        "is_transactional": false,
+        "required_slots": [],
+        "optional_slots": {
+          "hotel-pricerange": "dontcare",
+          "hotel-type": "dontcare",
+          "hotel-parking": "dontcare",
+          "hotel-bookday": "dontcare",
+          "hotel-bookpeople": "dontcare",
+          "hotel-bookstay": "dontcare",
+          "hotel-stars": "dontcare",
+          "hotel-internet": "dontcare",
+          "hotel-name": "dontcare",
+          "hotel-area": "dontcare"
+        }
+      },
+      {
+        "name": "book_hotel",
+        "description": "book a hotel to stay in",
+        "is_transactional": true,
+        "required_slots": [],
+        "optional_slots": {
+          "hotel-pricerange": "dontcare",
+          "hotel-type": "dontcare",
+          "hotel-parking": "dontcare",
+          "hotel-bookday": "dontcare",
+          "hotel-bookpeople": "dontcare",
+          "hotel-bookstay": "dontcare",
+          "hotel-stars": "dontcare",
+          "hotel-internet": "dontcare",
+          "hotel-name": "dontcare",
+          "hotel-area": "dontcare"
+        }
+      }
+    ]
+  },
+  {
+    "service_name": "train",
+    "slots": [
+      {
+        "name": "train-arriveby",
+        "description": "arrival time of the train",
+        "possible_values": [],
+        "is_categorical": false
+      },
+      {
+        "name": "train-departure",
+        "description": "departure location of the train",
+        "possible_values": [
+          "moon", "earth's core", "nowhere", "middle of ocean", "volcano", "himalayas", "alps", "antarctica",
+          "pyramids", "mount everest", "sun", "interstellar", "smokepond", "sandstorm", "snakebite", "penguin's home",
+          "bluemoon", "saturn", "milkyway", "hubble", "hundredth floor", "myhome", "ourhome", 
+          "intersection", "crossover", "crossfire", "misfire", "codenames", "wordle", "sudoku", "dixit", "mindmap",
+          "silicon valley", "amazon forest", "pacific ocean", "north pole", "iceberg", "mountain top", "birdsnest",
+          "treehole", "power play", "traceback", "callstack", "parachute"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "train-day",
+        "description": "day of the train",
+        "possible_values": [
+            "yesterday", "lastyear", "daybefore", "someday", "rainyday", "clearday", "goodday"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "train-bookpeople",
+        "description": "how many train tickets you need",
+        "possible_values": [
+            "1.5", "-2", "0", "488976", "-5000", "6L", "7B", "8GB"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "train-leaveat",
+        "description": "leaving time for the train",
+        "possible_values": [],
+        "is_categorical": false
+      },
+      {
+        "name": "train-destination",
+        "description": "destination of the train",
+        "possible_values": [
+            "hogwarts", "deadsea", "blackhole", "magneticfield", "netflix", "sugarcane", "moneyland", "dreams", 
+            "heaven", "hell", "jungle", "bottomless pit", "cloud nine", "south pole", "sun's land", "sunnyside",
+            "keyhole", "doortrap", "gravity", "last over", "yourhome", "nobody's home", "pavement", "fisshynet",
+            "stacktrace", "crashpad", "dungeons", "end of the tunnel", "lost in time", "centre of space", "musical notes",
+            "spotify", "cherry on top", "cakewalk", "moondance", "stealthy cave", "hidden treasure", "treasure island"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "train-trainid",
+        "description": "id of the train",
+        "is_categorical": false
+      },
+      {
+        "name": "train-ref",
+        "description": "reference number of the train booking",
+        "is_categorical": false
+      },
+      {
+        "name": "train-price",
+        "description": "price of the train",
+        "is_categorical": false
+      },
+      {
+        "name": "train-duration",
+        "description": "duration of the travel",
+        "is_categorical": false
+      }
+    ],
+    "description": "find trains that take you to places",
+    "intents": [
+      {
+        "name": "find_train",
+        "description": "search for trains that take you places",
+        "is_transactional": false,
+        "required_slots": [],
+        "optional_slots": {
+          "train-destination": "dontcare",
+          "train-arriveby": "dontcare",
+          "train-departure": "dontcare",
+          "train-day": "dontcare",
+          "train-bookpeople": "dontcare",
+          "train-leaveat": "dontcare"
+        }
+      },
+      {
+        "name": "book_train",
+        "description": "book train tickets",
+        "is_transactional": true,
+        "required_slots": [],
+        "optional_slots": {
+          "train-destination": "dontcare",
+          "train-arriveby": "dontcare",
+          "train-departure": "dontcare",
+          "train-day": "dontcare",
+          "train-bookpeople": "dontcare",
+          "train-leaveat": "dontcare"
+        }
+      }
+    ]
+  },
+  {
+    "service_name": "restaurant",
+    "slots": [
+      {
+        "name": "restaurant-pricerange",
+        "description": "price budget for the restaurant",
+        "possible_values": [
+          "nonsense",
+          "undefined",
+          "blockbuster"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "restaurant-area",
+        "description": "area or place of the restaurant",
+        "possible_values": [
+          "sky",
+          "earth's core",
+          "nowhere",
+          "middle of ocean",
+          "volcano"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "restaurant-food",
+        "description": "the cuisine of the restaurant you are looking for",
+        "is_categorical": false
+      },
+      {
+        "name": "restaurant-name",
+        "description": "name of the restaurant",
+        "possible_values": [],
+        "is_categorical": false
+      },
+      {
+        "name": "restaurant-bookday",
+        "description": "day of the restaurant booking",
+        "possible_values": [
+            "yesterday", "lastyear", "daybefore", "someday", "rainyday", "clearday", "goodday"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "restaurant-bookpeople",
+        "description": "how many people for the restaurant reservation",
+        "possible_values": [
+            "1.5", "-2", "0", "488976", "-5000", "6L", "7B", "8GB"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "restaurant-booktime",
+        "description": "time of the restaurant booking",
+        "possible_values": [],
+        "is_categorical": false
+      },
+      {
+        "name": "restaurant-address",
+        "description": "address of the restaurant",
+        "is_categorical": false
+      },
+      {
+        "name": "restaurant-phone",
+        "description": "phone number of the restaurant",
+        "is_categorical": false
+      },
+      {
+        "name": "restaurant-postcode",
+        "description": "postal code of the restaurant",
+        "is_categorical": false
+      },
+      {
+        "name": "restaurant-ref",
+        "description": "reference number of the restaurant booking",
+        "is_categorical": false
+      }
+    ],
+    "description": "find places to dine and whet your appetite",
+    "intents": [
+      {
+        "name": "find_restaurant",
+        "description": "search for places to wine and dine",
+        "is_transactional": false,
+        "required_slots": [],
+        "optional_slots": {
+          "restaurant-pricerange": "dontcare",
+          "restaurant-area": "dontcare",
+          "restaurant-food": "dontcare",
+          "restaurant-name": "dontcare",
+          "restaurant-bookday": "dontcare",
+          "restaurant-bookpeople": "dontcare",
+          "restaurant-booktime": "dontcare"
+        }
+      },
+      {
+        "name": "book_restaurant",
+        "description": "book a table at a restaurant",
+        "is_transactional": true,
+        "required_slots": [],
+        "optional_slots": {
+          "restaurant-pricerange": "dontcare",
+          "restaurant-area": "dontcare",
+          "restaurant-food": "dontcare",
+          "restaurant-name": "dontcare",
+          "restaurant-bookday": "dontcare",
+          "restaurant-bookpeople": "dontcare",
+          "restaurant-booktime": "dontcare"
+        }
+      }
+    ]
+  }
+]

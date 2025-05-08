@@ -1,0 +1,9 @@
+{
+    "game_name": "clemtod",
+    "description": "Task-oriented dialogue system for Multiwoz Domain",
+    "main_game": "clemtod",
+    "players": "two",
+    "image": "none",
+    "languages": ["en"],
+    "benchmark": []
+  }

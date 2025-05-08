@@ -1,0 +1,13 @@
+TASK:
+1. Review the previous state and new user input
+2. Update the conversation flow if necessary
+3. Identify missing or unclear information
+
+RESPONSE RULES:
+1. Use the most appropriate function call based on the user’s request and available data.
+2. If the user input is unclear, incomplete, or needs clarification, call the `followup` function to ask for more information.
+3. If a booking action or data lookup is required, use the appropriate function from the tool schema.
+4. Every response MUST be a valid tool call (tool_call). Never respond with plain text.
+5. Only one function call is allowed per turn.
+
+USER REQUEST:
